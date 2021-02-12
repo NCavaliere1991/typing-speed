@@ -54,7 +54,7 @@ start_button.grid(row=3, column=1, pady=20)
 score = Label(text=f'Score: {word_generator.score}', fg='#6026BF', bg='green', font=('Courier', 20, 'bold'))
 score.grid(row=0, column=2)
 current_word = Label(text=word_generator.current_word, font=("Arial", 30, 'bold'), bg='green')
-current_word.grid(row=1, column=1)
+current_word.grid(row=1, column=1, pady=50)
 answer = Entry(width=20, highlightthickness=0)
 answer.grid(row=2, column=1)
 
