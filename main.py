@@ -58,6 +58,5 @@ current_word.grid(row=1, column=1, pady=50)
 answer = Entry(width=20, highlightthickness=0)
 answer.grid(row=2, column=1)
 
-window.bind("<space>", check_answer)
 window.bind("<Return>", check_answer)
 window.mainloop()
