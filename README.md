@@ -1,1 +1,2 @@
 # typing-speed
+A typing speed tester built with python and tkinter. When user presses start on GUI, a countdown starts for a minute and a word is chosen from the word list in the Word Generator class. The word shows up on the screen and the user must type it right to score a point (words are not case sensitive). Whether the word is typed right or wrong, a new word is generated from the list. At the end of a minute, user's score is calculated.  
